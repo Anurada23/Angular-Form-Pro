@@ -1,26 +1,59 @@
-# Angular-Form-Pro
+# WishList
 
-This angular project showcases a professional implementation of a contact form using Angular's Reactive Forms approach. It demonstrates robust form control, real-time validation, and dynamic UI updates using Angular’s reactive programming model.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
 
-Overview
-The application leverages  the FormGroup and FormControl classes to manage form state, and integrates built-in validators for ensuring input integrity. User inputs are processed and captured systematically within the component, showcasing best practices in form handling and data flow.
+## Development server
 
-Key Features
-Fully reactive, scalable form architecture using ReactiveFormsModule
+To start a local development server, run:
 
-Built-in validation using Angular’s Validators API (e.g., required, email format)
+```bash
+ng serve
+```
 
-Clean, modular structure separating logic and presentation layers
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-Dynamic form state tracking and conditional rendering using *ngIf
+## Code scaffolding
 
-Styled using Bootstrap for responsive and consistent UI
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-🛠️ Tech Stack
-Framework: Angular
+```bash
+ng generate component component-name
+```
 
-Language: TypeScript
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-Styling: Bootstrap
+```bash
+ng generate --help
+```
 
-Form Handling: Reactive Forms API
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
